@@ -1,0 +1,48 @@
+
+
+.logins{
+    top: 274px;
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+    align-items: center;
+   
+}
+
+
+
+  @media only screen and (max-width: 800px) {
+    .logins {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        background-color: #333333;
+        align-items: center;
+       
+    }}
+    @media only screen and (max-width:500px)
+    {
+        .logins {
+            top: 274px;
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+    align-items: center;
+          
+        }}
+        .errorMessage{
+            color: red;
+        }
+        .eyes span{
+           
+                cursor: pointer;
+                margin-top: -47px;
+                display: flex; 
+                 position: absolute;
+                margin-left: 235px;
+              
+        }
